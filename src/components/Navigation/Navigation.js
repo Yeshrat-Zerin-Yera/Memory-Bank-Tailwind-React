@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import './Navigation.css';
 import { NavLink } from 'react-router-dom';
 import Logo from '../../images/logo.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 
 const Navigation = () => {
     const [open, setOpen] = useState(false);
@@ -23,7 +23,7 @@ const Navigation = () => {
                 {/* Logo */}
                 <div className='hidden md:flex items-center'>
                     <img src={Logo} alt=''></img>
-                    <p className='text-3xl ml-3'>Memory Bank</p>
+                    <p className='text-3xl ml-3 md:hidden lg:block'>Memory Bank</p>
                 </div>
 
                 {/* Nav Links */}

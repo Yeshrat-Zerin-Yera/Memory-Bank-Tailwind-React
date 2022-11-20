@@ -1,5 +1,6 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
+import Header from '../Header/Header';
 
 const Topics = () => {
     const topicsInfo = useLoaderData();
@@ -7,7 +8,7 @@ const Topics = () => {
 
     return (
         <div>
-            <h1>Topics: {topics.length}</h1>
+            <Header></Header>
         </div>
     );
 };
