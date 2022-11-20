@@ -11,7 +11,10 @@ const Header = () => {
                 {/* Header Details */}
                 <h1 className='text-4xl mb-6'>Select The Correct Option, Measure Your Knowledge</h1>
                 <p className='text-[20px] mb-6'>With memory bank you can make your memory more sharper. Select the topic you want to test your knowledge in.</p>
-                <button className='bg-[#00efe8] text-[#172652] p-3 rounded flex items-center hover:bg-[#a4fffc]'><Link to='/statistics'>View Statistics</Link><FontAwesomeIcon icon={faArrowRight} className='ml-1' /></button>
+                <Link to='/statistics' className='bg-[#00efe8] text-[#172652] p-3 rounded hover:bg-[#a4fffc]'>
+                    View Statistics
+                    <FontAwesomeIcon icon={faArrowRight} className='ml-1 align-middle' />
+                </Link>
             </div>
 
             {/* Header Image */}
