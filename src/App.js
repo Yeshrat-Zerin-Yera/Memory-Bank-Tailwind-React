@@ -5,6 +5,7 @@ import Statistics from './components/Statistics/Statistics';
 import Blog from './components/Blog/Blog';
 import About from './components/About/About';
 import Main from './layouts/Main/Main';
+import Quiz from './components/Quiz/Quiz';
 
 function App() {
   const router = createBrowserRouter([
@@ -28,6 +29,10 @@ function App() {
         {
           path: '/about',
           element: <About></About>
+        },
+        {
+          path: '/quiz',
+          element: <Quiz></Quiz>
         }
       ]
     }
