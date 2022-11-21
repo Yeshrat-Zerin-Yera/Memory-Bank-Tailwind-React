@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './Navigation.css';
 import { NavLink } from 'react-router-dom';
-import Logo from '../../images/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
+import Logo from '../../images/logo.png';
 
 const Navigation = () => {
     const [open, setOpen] = useState(false);
