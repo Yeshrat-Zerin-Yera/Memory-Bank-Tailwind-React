@@ -28,7 +28,7 @@ const Navigation = () => {
 
                 {/* Nav Links */}
                 <div className='flex items-center flex-col md:flex-row'>
-                    <NavLink to='/' className={`mx-6 py-2 px-4 hover:text-[#0072ce] rounded ${({ isActive }) => isActive ? 'active' : undefined}`}>Topics</NavLink>
+                    <NavLink to='/' className={`mx-6 py-2 px-4 hover:text-[#0072ce] rounded ${({ isActive }) => isActive ? 'active' : undefined}`}>Home</NavLink>
                     <NavLink to='/statistics' className='mx-6 py-2 px-4 hover:text-[#0072ce] rounded'>Statistics</NavLink>
                     <NavLink to='/blog' className='mx-6 py-2 px-4 hover:text-[#0072ce] rounded'>Blog</NavLink>
                     <NavLink to='/about' className='mx-6 py-2 px-4 hover:text-[#0072ce] rounded'>About</NavLink>

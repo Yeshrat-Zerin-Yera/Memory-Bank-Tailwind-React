@@ -4,7 +4,6 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const Question = ({ question }) => {
     const { options, correctAnswer } = question;
-    console.log(correctAnswer);
 
     const calculation = () => {
         document.addEventListener('click', function (event) {
@@ -12,15 +11,12 @@ const Question = ({ question }) => {
             const selectedItem = event.target.innerText;
             if (selectedItem.replace(/\s/g, "") === correctAnswer.replace(/\s/g, "")) {
                 toast.success("Correct Answer !");
-                // console.log(selectedItem.replace(/\s/g, ""), correctAnswer.replace(/\s/g, ""));
             }
             else if (selectedItem.replace(/\s/g, "") !== correctAnswer.replace(/\s/g, "")) {
                 toast.error("Wrong Answer !");
-                // console.log(selectedItem.replace(/\s/g, ""), correctAnswer.replace(/\s/g, ""));
             }
             console.log(selectedItem.replace(/\s/g, ""), correctAnswer.replace(/\s/g, ""));
         });
-        // return;
     };
 
     return (

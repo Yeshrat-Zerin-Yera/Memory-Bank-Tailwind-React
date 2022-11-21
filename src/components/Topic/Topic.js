@@ -6,9 +6,13 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const Topic = ({ topic }) => {
     const { id, logo, name, total } = topic;
+
     return (
         <div className='relative text-[#172652] font-extrabold p-3 rounded shadow-xl'>
+            {/* Topic Image */}
             <img src={logo} alt='' className='bg-purple-100 rounded mb-3 w-[100%]'></img>
+
+            {/* Topic Details */}
             <div className='flex items-center justify-between'>
                 <p>{name}</p>
                 <Link to={`/topic/${id}`} className='text-[#0072ce]'>
