@@ -11,7 +11,7 @@ const Topic = ({ topic }) => {
             <img src={logo} alt='' className='bg-purple-100 rounded mb-3 w-[100%]'></img>
             <div className='flex items-center justify-between'>
                 <p>{name}</p>
-                <Link to='/quiz' className='text-[#0072ce]'>
+                <Link to={`/topic/${id}`} className='text-[#0072ce]'>
                     Start Quiz
                     <FontAwesomeIcon icon={faArrowRight} className='ml-1 align-middle' />
                 </Link>
