@@ -2,6 +2,8 @@ import React from 'react';
 
 const Question = ({ question }) => {
     const { options } = question;
+
+    console.log(question);
     return (
         <div className='shadow-xl rounded mb-6 p-12 md:w-[80%] lg:w-[60%] m-auto text-left'>
             <h1 className='text-2xl mb-6'>Quiz: {question.question}</h1>
