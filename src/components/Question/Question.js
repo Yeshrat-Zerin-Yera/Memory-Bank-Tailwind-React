@@ -15,8 +15,8 @@ const Question = ({ question }) => {
             else if (selectedItem.replace(/\s/g, "") !== correctAnswer.replace(/\s/g, "")) {
                 toast.error("Wrong Answer !");
             }
-        });
-        return;
+        }, true);
+        // return;
     };
 
     return (
