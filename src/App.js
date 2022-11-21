@@ -26,6 +26,7 @@ function App() {
         },
         {
           path: '/blog',
+          loader: () => fetch('blogDb.json'),
           element: <Blog></Blog>
         },
         {
