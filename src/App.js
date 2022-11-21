@@ -31,6 +31,7 @@ function App() {
         },
         {
           path: '/about',
+          loader: () => fetch('aboutDb.json'),
           element: <About></About>
         },
         {
