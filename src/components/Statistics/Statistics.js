@@ -15,9 +15,9 @@ const Statistics = () => {
     const topicsInfo = useLoaderData();
 
     return (
-        <section className='h-[40vh] md:h-[60vh] md:w-[60%] w-[100%] m-auto'>
+        <section className='h-[40vh] md:h-[70vh] md:w-[60%] w-[100%] m-auto mb-48'>
             <h1 className='my-16 text-4xl font-semibold text-[#172652]'>Statistics of Topics</h1>
-            <ResponsiveContainer width='100%'>
+            <ResponsiveContainer width='100%' height='100%'>
                 <BarChart
                     data={topicsInfo.data}
                     margin={{
