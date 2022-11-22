@@ -6,11 +6,11 @@ Important links are given:
 
 ### Repository Link
 
-Github private repository link: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Github private repository link: [https://github.com/programming-hero-web-course2/b6-quiz-crackerz-Yeshrat-Zerin-Yera](https://github.com/programming-hero-web-course2/b6-quiz-crackerz-Yeshrat-Zerin-Yera)
 
 ### Livesite Link
 
-Netlify livesite link: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Netlify livesite link: [https://memory-bank-tailwind-react.netlify.app/](https://memory-bank-tailwind-react.netlify.app/)
 
 
 ## Features
