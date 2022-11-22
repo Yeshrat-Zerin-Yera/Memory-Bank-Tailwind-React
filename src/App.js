@@ -26,12 +26,12 @@ function App() {
         },
         {
           path: '/blog',
-          loader: () => fetch('blogDb.json'),
+          // loader: () => fetch('blogDb.json'),
           element: <Blog></Blog>
         },
         {
           path: '/about',
-          loader: () => fetch('aboutDb.json'),
+          // loader: () => fetch('aboutDb.json'),
           element: <About></About>
         },
         {

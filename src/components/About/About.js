@@ -2,10 +2,16 @@ import React from 'react';
 import Features from '../../images/features.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-import { useLoaderData } from 'react-router-dom';
+// import { useLoaderData } from 'react-router-dom';
 
 const About = () => {
-    const features = useLoaderData();
+    const features = [
+        "Better user experience.",
+        "Faster routing through pages.",
+        "Dynamic data loading system.",
+        "Cleaner code experience.",
+        "Agreeable to liking style."
+    ];
 
     return (
         <div className='font-semibold text-[#172652]'>
