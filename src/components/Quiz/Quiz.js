@@ -10,7 +10,7 @@ const Quiz = () => {
         <div className='my-24 font-semibold text-[#172652]'>
             <h1 className='text-4xl mb-6'>Quiz of {name}</h1>
             {
-                questions.map(question => <Question key={question.id} question={question}></Question>)
+                questions.map((question, index) => <Question key={question.id} question={question} index={index + 1}></Question>)
             }
         </div>
     );
